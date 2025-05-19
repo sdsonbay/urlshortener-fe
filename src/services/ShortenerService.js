@@ -1,6 +1,6 @@
 class ShortenerService {
   constructor() {
-    this.API_URL = 'http://localhost:8081/api/v1/shortener';
+    this.API_URL = 'http://localhost:8080/api/v1/url';
   }
 
   async shortenUrl(url) {
